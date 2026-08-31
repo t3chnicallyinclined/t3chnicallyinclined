@@ -1,11 +1,9 @@
 ## Tristan Rega
 
-Infrastructure and support engineering — about fifteen years of it. Most recently five years
-keeping a cloud-native core banking platform running for ~60 banks: production on-call with
-break-glass into regulated environments, and the major incident framework the engineering
-org now runs on.
-
-Everything below is what I build when nobody's asking me to.
+Fifteen years in infrastructure and technical support — most recently five years of cloud
+support for a core banking platform serving ~60 banks. Career details live on
+[LinkedIn](https://www.linkedin.com/in/tristech); this is what I build when nobody's asking
+me to.
 
 ---
 
