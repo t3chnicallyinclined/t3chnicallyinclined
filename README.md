@@ -27,8 +27,9 @@ pipeline built around never paying for inference you can avoid. Three ONNX model
 before anything hosted is touched, and active-speaker detection is just face presence multiplied
 by voice activity: two signals I already had, so no model gets paid to work out who is talking.
 A batched ranker turns a two-hour episode into about twenty model calls instead of 240. The part
-I'd point at is the loop: click-through on published clips gets pulled back and injected into the
-ranker prompt, so what it picks improves from measured outcomes.
+I'd point at is the loop: how published clips actually performed, views on YouTube and likes and
+reposts on Bluesky, gets pulled back into the ranker prompt, so what it picks improves from
+measured outcomes.
 
 **Forgily Creations** ([creations.forgily.com](https://creations.forgily.com)): an AI character
 platform in Rust. The promise is that no two characters are ever alike, which is a hard thing to
