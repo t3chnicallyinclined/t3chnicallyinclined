@@ -9,6 +9,15 @@ me to.
 
 ### What I'm working on
 
+**[ai-visualized](https://github.com/t3chnicallyinclined/ai-visualized)**: a language model
+running in your browser with every number on screen. Six real models, four architectures, a
+from-scratch JavaScript engine checked against Hugging Face `transformers`: same tokens, same
+greedy output, hidden states within a few millionths after every layer. You watch your words
+become numbers, fall through millions of knobs that training glued in place, light up every
+token in the vocabulary, and get picked by weighted dice. Anything that's a picture rather than
+a measurement says so on the page. Most explanations of this are diagrams of an imaginary model;
+this one runs the real thing. [Live here](https://t3chnicallyinclined.github.io/ai-visualized/).
+
 **[maplecast-flycast](https://github.com/t3chnicallyinclined/maplecast-flycast)**: Dreamcast
 streaming that ships raw GPU command buffers instead of encoded video. The browser replays
 them locally, so frames are byte-identical rather than compressed. Two diff layers take it
@@ -42,6 +51,16 @@ product is live.
 toolkit, and a knowledge graph where every claim carries a truth status and a link to its
 evidence, **including the things we proved don't work.** Most knowledge bases only record
 wins, which is why teams re-walk the same dead end every six months.
+
+**[groundworks](https://github.com/t3chnicallyinclined/groundworks)**: an evidence-gated
+knowledge graph for making agents reliably expert in one body of material. The database refuses
+to mark a claim confirmed without evidence of sufficient rank, a program checks that every quote
+actually appears in its source, and dead ends are kept so nobody re-walks them. The part I'd
+point at: I deleted one clause out of a promotion rule to see whether the generated test suite
+would notice. It reported everything healthy, while the store would now accept a claim backed by
+nothing. **A suite generated from the same config it tests can only prove internal consistency**
+— to prove strength the reference has to come from outside.
+
 
 **[design-notes](https://github.com/t3chnicallyinclined/design-notes)**: design proposals
 for systems I think should exist. Problem, data model, trade-offs, failure modes, rollout.
